@@ -33,7 +33,7 @@ https://forest71.tistory.com/163 님 감사합니다.
 - MariaDB에 데이터 베이스(groupware9)를 생성하고 tables.sql, tableData.sql를 실행하여 테이블과 데이터를 생성한다.
 - applicationContext.xml에 적절한 접속 정보를 입력한다.
 - 톰캣이나 이클립스에서 groupware9를 실행
-- http://localhost:8080/groupware9/로 접속
+- http://localhost:8080/groupware9/ 로 접속
 - ID/PW: admin/admin, user1/user1, user2/user2 ...
 
 ### Branches ###

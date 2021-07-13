@@ -9,11 +9,11 @@ import gu.common.LocaleMessage;
 import gu.mail.MailVO;
 
 public class ImportMail  implements Runnable {
-	private MailSvc mailSvc;
+	private MailService mailSvc;
 	private String userno;
 	private HttpSession session;
 	
-	public ImportMail(MailSvc mailSvc, String userno, HttpSession session) {
+	public ImportMail(MailService mailSvc, String userno, HttpSession session) {
         this.mailSvc = mailSvc;
         this.userno = userno;
         this.session = session;
@@ -43,11 +43,11 @@ public class ImportMail  implements Runnable {
 	 	session.removeAttribute("mail"); // 중복 실행 방지
     }
 
-	public MailSvc getMailSvc() {
+	public MailService getMailSvc() {
 		return mailSvc;
 	}
 
-	public void setMailSvc(MailSvc mailSvc) {
+	public void setMailSvc(MailService mailSvc) {
 		this.mailSvc = mailSvc;
 	}
 

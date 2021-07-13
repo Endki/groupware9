@@ -8,7 +8,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import gu.board.BoardSvc;
+import gu.board.BoardService;
 
 public class UtilEtc {
     static final Logger LOGGER = LoggerFactory.getLogger(UtilEtc.class);

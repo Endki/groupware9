@@ -15,7 +15,7 @@ import gu.board.BoardSearchVO;
 public class List4User {
 
     @Autowired
-    private EtcSvc etcSvc;
+    private EtcService etcSvc;
     
     /**
      * alert 리스트 전체.

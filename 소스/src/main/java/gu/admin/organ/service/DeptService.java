@@ -1,10 +1,12 @@
-package gu.admin.organ;
+package gu.admin.organ.service;
 
 import java.util.List;
 
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import gu.admin.organ.vo.DepartmentVO;
 
 @Service
 public class DeptService {

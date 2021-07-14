@@ -1,4 +1,4 @@
-package gu.admin.board;
+package gu.admin.board.vo;
 
 public class BoardGroupVO {
 

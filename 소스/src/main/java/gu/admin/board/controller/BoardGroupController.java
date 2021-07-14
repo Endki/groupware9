@@ -1,4 +1,4 @@
-package gu.admin.board;
+package gu.admin.board.controller;
 
 import java.util.List;
 
@@ -10,6 +10,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import gu.admin.board.service.BoardGroupService;
+import gu.admin.board.vo.BoardGroupVO;
 import gu.common.TreeMaker;
 import gu.common.UtilEtc;
 import gu.etc.EtcService;

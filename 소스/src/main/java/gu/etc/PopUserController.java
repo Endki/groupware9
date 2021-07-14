@@ -9,8 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.admin.organ.DeptService;
-import gu.admin.organ.UserService;
+import gu.admin.organ.service.DeptService;
+import gu.admin.organ.service.UserService;
 import gu.common.SearchVO;
 import gu.common.TreeMaker;
 

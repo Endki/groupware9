@@ -10,10 +10,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import gu.common.FileUtil;
-import gu.common.FileVO;
 import gu.common.LocaleMessage;
 import gu.common.Util4calen;
-import gu.mail.MailVO;
+import gu.common.vo.FileVO;
+import gu.mail.vo.MailVO;
 
 public class Imap {
     static final Logger LOGGER = LoggerFactory.getLogger(Imap.class);

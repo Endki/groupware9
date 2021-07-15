@@ -11,10 +11,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.common.Field3VO;
-import gu.common.SearchVO;
 import gu.common.Util4calen;
+import gu.common.vo.Field3VO;
+import gu.common.vo.SearchVO;
 import gu.etc.EtcService;
+import gu.schedule.vo.MonthVO;
+import gu.schedule.vo.SchVO;
 
 @Controller 
 public class SchController {

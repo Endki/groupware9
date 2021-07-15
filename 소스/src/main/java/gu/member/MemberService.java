@@ -6,7 +6,9 @@ import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import gu.common.SearchVO;
+import gu.common.vo.SearchVO;
+import gu.member.vo.LoginVO;
+import gu.member.vo.UserVO;
 
 @Service
 public class MemberService {

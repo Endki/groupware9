@@ -1,6 +1,6 @@
 package gu.board;
 
-import gu.common.PageVO;
+import gu.common.vo.PageVO;
 
 public class BoardSearchVO extends PageVO  {
 

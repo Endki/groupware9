@@ -1,4 +1,4 @@
-package gu.main;
+package gu.main.service;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import gu.common.Field3VO;
+import gu.common.vo.Field3VO;
 
 @Service
 public class IndexService {

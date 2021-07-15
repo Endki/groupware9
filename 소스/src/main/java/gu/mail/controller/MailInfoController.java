@@ -1,4 +1,4 @@
-package gu.mail;
+package gu.mail.controller;
 
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
@@ -11,8 +11,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.common.SearchVO;
+import gu.common.vo.SearchVO;
 import gu.etc.EtcService;
+import gu.mail.Imap;
+import gu.mail.ImportMail;
+import gu.mail.MailService;
+import gu.mail.vo.MailInfoVO;
 
 @Controller 
 public class MailInfoController {

@@ -1,4 +1,4 @@
-package gu.mail;
+package gu.mail.controller;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,8 +15,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.common.SearchVO;
+import gu.common.vo.SearchVO;
 import gu.etc.EtcService;
+import gu.mail.ImportMail;
+import gu.mail.MailService;
+import gu.mail.vo.MailVO;
 
 @Controller 
 public class MailController {

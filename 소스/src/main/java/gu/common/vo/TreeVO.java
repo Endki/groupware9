@@ -1,4 +1,4 @@
-package gu.common;
+package gu.common.vo;
 
 import java.util.List;
 

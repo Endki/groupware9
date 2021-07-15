@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import gu.admin.code.service.CodeService;
 import gu.admin.code.vo.CodeVO;
-import gu.common.SearchVO;
+import gu.common.vo.SearchVO;
 
 @Controller 
 public class CodeController {

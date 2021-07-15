@@ -9,6 +9,8 @@ import java.util.Date;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import gu.common.vo.DateVO;
+
 public class Util4calen {
     static final Logger LOGGER = LoggerFactory.getLogger(AdminInterceptor.class);
     static final String[] dayArr = {"일", "월", "화", "수", "목", "금", "토"};

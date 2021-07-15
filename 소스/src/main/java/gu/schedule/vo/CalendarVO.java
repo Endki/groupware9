@@ -1,4 +1,4 @@
-package gu.schedule;
+package gu.schedule.vo;
 
 import java.util.List;
 

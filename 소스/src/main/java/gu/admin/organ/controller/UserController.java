@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import gu.admin.organ.service.DeptService;
 import gu.admin.organ.service.UserService;
 import gu.common.FileUtil;
-import gu.common.FileVO;
 import gu.common.TreeMaker;
 import gu.common.UtilEtc;
+import gu.common.vo.FileVO;
 import gu.etc.EtcService;
-import gu.member.UserVO;
+import gu.member.vo.UserVO;
 
 @Controller
 public class UserController {

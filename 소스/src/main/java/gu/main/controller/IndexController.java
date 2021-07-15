@@ -1,4 +1,4 @@
-package gu.main;
+package gu.main.controller;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -11,10 +11,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.common.DateVO;
-import gu.common.Field3VO;
 import gu.common.Util4calen;
+import gu.common.vo.DateVO;
+import gu.common.vo.Field3VO;
 import gu.etc.EtcService;
+import gu.main.service.IndexService;
 
 
 @Controller 

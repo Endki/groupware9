@@ -12,8 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import gu.admin.sign.SignDocService;
 import gu.admin.sign.SignDocTypeVO;
-import gu.common.SearchVO;
+import gu.common.vo.SearchVO;
 import gu.etc.EtcService;
+import gu.sign.vo.SignDocVO;
+import gu.sign.vo.SignVO;
 
 @Controller 
 public class SignController {

@@ -1,4 +1,4 @@
-package gu.main;
+package gu.main.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -18,6 +18,7 @@ import gu.board.BoardService;
 import gu.common.MakeExcel;
 import gu.common.Util4calen;
 import gu.etc.EtcService;
+import gu.main.service.SampleService;
 
 
 @Controller 

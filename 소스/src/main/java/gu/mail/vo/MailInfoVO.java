@@ -1,4 +1,4 @@
-package gu.mail;
+package gu.mail.vo;
 
 public class MailInfoVO {
     private String  emino, 

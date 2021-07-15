@@ -1,8 +1,8 @@
-package gu.mail;
+package gu.mail.vo;
 
 import java.util.ArrayList;
 
-import gu.common.FileVO;
+import gu.common.vo.FileVO;
 
 public class MailVO {
     private String  emno,

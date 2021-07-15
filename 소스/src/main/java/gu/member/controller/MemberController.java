@@ -1,4 +1,4 @@
-package gu.member;
+package gu.member.controller;
 
 import java.util.List;
 
@@ -12,9 +12,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import gu.admin.organ.service.UserService;
 import gu.common.FileUtil;
-import gu.common.FileVO;
-import gu.common.SearchVO;
 import gu.common.UtilEtc;
+import gu.common.vo.FileVO;
+import gu.common.vo.SearchVO;
+import gu.member.MemberService;
+import gu.member.vo.UserVO;
 
 
 @Controller 

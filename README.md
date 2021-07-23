@@ -39,8 +39,7 @@ https://forest71.tistory.com/163 님 감사합니다.
 - ID/PW: admin/admin, user1/user1, user2/user2 ...
 
 ### Branches ###
-- master: 연습용
-- useful: 버그 수정, 기븐 보완을 거쳐 제법 유용한 버전. 작성중 ...
+- master: 
 
 ### License ###
 GPL v3

@@ -38,9 +38,6 @@ https://forest71.tistory.com/163 님 감사합니다.
 - http://localhost:8080/groupware9/ 로 접속
 - ID/PW: admin/admin, user1/user1, user2/user2 ...
 
-### Branches ###
-- master: 
-
 ### License ###
 GPL v3
 

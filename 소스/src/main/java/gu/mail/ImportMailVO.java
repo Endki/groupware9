@@ -1,4 +1,4 @@
-package gu.mail.vo;
+package gu.mail;
 
 import java.util.ArrayList;
 

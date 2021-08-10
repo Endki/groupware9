@@ -1,4 +1,4 @@
-package gu.member.vo;
+package gu.member;
 
 public class LoginVO {
     private String userid;

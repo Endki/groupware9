@@ -17,11 +17,11 @@ import gu.admin.board.service.BoardGroupService;
 import gu.admin.board.vo.BoardGroupVO;
 import gu.board.BoardReplyVO;
 import gu.board.BoardVO;
+import gu.common.Field3VO;
 import gu.common.FileUtil;
+import gu.common.FileVO;
 import gu.common.TreeMaker;
 import gu.common.UtilEtc;
-import gu.common.vo.Field3VO;
-import gu.common.vo.FileVO;
 import gu.etc.EtcService;
 
 @Controller 

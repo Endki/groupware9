@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.common.vo.SearchVO;
+import gu.common.SearchVO;
 import gu.etc.EtcService;
 
 @Controller 

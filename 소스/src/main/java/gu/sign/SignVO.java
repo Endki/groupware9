@@ -1,4 +1,4 @@
-package gu.sign.vo;
+package gu.sign;
 
 public class SignVO {
 

@@ -1,4 +1,4 @@
-package gu.schedule.vo;
+package gu.schedule;
 
 public class SchDetailVO {
 

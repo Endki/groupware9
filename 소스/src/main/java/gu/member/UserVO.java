@@ -1,4 +1,4 @@
-package gu.member.vo;
+package gu.member;
 
 import org.springframework.web.multipart.MultipartFile;
 

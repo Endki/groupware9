@@ -1,4 +1,4 @@
-package gu.common.vo;
+package gu.common;
 
 public class PageVO {
     private Integer displayRowCount = 10;           // 출력할 데이터 개수

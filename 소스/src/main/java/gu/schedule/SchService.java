@@ -14,13 +14,9 @@ import org.springframework.transaction.TransactionException;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 
+import gu.common.Field3VO;
+import gu.common.SearchVO;
 import gu.common.Util4calen;
-import gu.common.vo.Field3VO;
-import gu.common.vo.SearchVO;
-import gu.schedule.vo.CalendarVO;
-import gu.schedule.vo.MonthVO;
-import gu.schedule.vo.SchDetailVO;
-import gu.schedule.vo.SchVO;
 
 @Service
 public class SchService {

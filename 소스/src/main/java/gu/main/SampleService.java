@@ -1,4 +1,4 @@
-package gu.main.service;
+package gu.main;
 
 import java.util.List;
 

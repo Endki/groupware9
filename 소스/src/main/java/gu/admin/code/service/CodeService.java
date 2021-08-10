@@ -14,7 +14,7 @@ import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 
 import gu.admin.code.vo.CodeVO;
-import gu.common.vo.SearchVO;
+import gu.common.SearchVO;
 
 @Service
 public class CodeService {

@@ -1,4 +1,4 @@
-package gu.common.vo;
+package gu.common;
 
 public class FileVO {
     private Integer fileno; 

@@ -8,8 +8,6 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import gu.common.vo.TreeVO;
-
 public class TreeMaker {
     static final Logger LOGGER = LoggerFactory.getLogger(AdminInterceptor.class);
 

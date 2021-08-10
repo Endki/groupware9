@@ -1,4 +1,4 @@
-package gu.common.vo;
+package gu.common;
 
 public class CountVO {
     private String field1;

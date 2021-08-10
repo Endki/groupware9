@@ -13,9 +13,7 @@ import org.springframework.transaction.TransactionException;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 
-import gu.common.vo.SearchVO;
-import gu.sign.vo.SignDocVO;
-import gu.sign.vo.SignVO;
+import gu.common.SearchVO;
 
 @Service
 public class SignService {

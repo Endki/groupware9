@@ -15,8 +15,8 @@ import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 
 import gu.admin.board.vo.BoardGroupVO;
-import gu.common.vo.Field3VO;
-import gu.common.vo.FileVO;
+import gu.common.Field3VO;
+import gu.common.FileVO;
 
 @Service
 public class BoardService {

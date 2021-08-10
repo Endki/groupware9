@@ -1,4 +1,4 @@
-package gu.common.vo;
+package gu.common;
 
 public class Field3VO {
     private String field1;

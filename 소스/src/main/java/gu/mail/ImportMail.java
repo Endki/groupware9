@@ -4,10 +4,9 @@ import java.util.*;
 
 import javax.servlet.http.HttpSession;
 
+import gu.common.Field3VO;
 import gu.common.LocaleMessage;
-import gu.common.vo.Field3VO;
-import gu.mail.vo.MailInfoVO;
-import gu.mail.vo.MailVO;
+import gu.mail.MailVO;
 
 public class ImportMail  implements Runnable {
 	private MailService mailSvc;

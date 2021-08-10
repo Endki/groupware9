@@ -1,4 +1,4 @@
-package gu.member.controller;
+package gu.member;
 
 
 import javax.servlet.http.Cookie;
@@ -11,9 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.member.MemberService;
-import gu.member.vo.LoginVO;
-import gu.member.vo.UserVO;
+import gu.member.UserVO;
 
 @Controller
 public class LoginController {    

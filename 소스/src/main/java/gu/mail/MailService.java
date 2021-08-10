@@ -18,11 +18,8 @@ import org.springframework.transaction.TransactionException;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 
-import gu.common.vo.FileVO;
-import gu.common.vo.SearchVO;
-import gu.mail.vo.MailAddressVO;
-import gu.mail.vo.MailInfoVO;
-import gu.mail.vo.MailVO;
+import gu.common.FileVO;
+import gu.common.SearchVO;
 
 @Service
 public class MailService {
@@ -51,7 +48,7 @@ public class MailService {
     public MailVO selectReceiveMailOne(MailVO param) {
     	MailVO mail = sqlSession.selectOne("selectReceiveMailOne", param);
     	if (mail!=null) {
-    		MailAddressVO mavo = new gu.mail.vo.MailAddressVO();
+    		MailAddressVO mavo = new gu.mail.MailAddressVO();
     		mavo.setEmno(param.getEmno());
     		mavo.setEatype("t");
         	ArrayList <?> a = (ArrayList<?>) sqlSession.selectList("selectMailAddressList", mavo);

@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import gu.admin.organ.service.DeptService;
 import gu.admin.organ.service.UserService;
+import gu.common.SearchVO;
 import gu.common.TreeMaker;
-import gu.common.vo.SearchVO;
 
 @Controller
 public class PopUserController {

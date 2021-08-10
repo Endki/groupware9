@@ -11,10 +11,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-import gu.board.BoardService;
+import gu.board.BoardSvc;
 
 public class LoginInterceptor implements HandlerInterceptor {
-    static final Logger LOGGER = LoggerFactory.getLogger(BoardService.class);
+    static final Logger LOGGER = LoggerFactory.getLogger(BoardSvc.class);
 
     /**
      * Controller 실행 요청전.

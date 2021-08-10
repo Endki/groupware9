@@ -138,7 +138,16 @@
                              <li>
                                  <a href="adSignDocTypeList"><i class="fa fa-edit fa-fw"></i> 결재문서양식</a>
                              </li>
-	                	</c:if>	        
+	                	</c:if>	    
+	                	
+<li>
+                            <a href="#"><i class="fa fa-cube fa-fw"></i> 편의기능<span class="fa arrow"></span></a>
+							<ul class="nav nav-second-level">
+                                <li>
+                                    <a href="https://github.com/endki">홈페이지 이동</a>
+                                </li>
+	                        </ul>                             
+                        </li>        
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

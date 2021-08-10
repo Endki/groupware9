@@ -12,7 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.admin.board.vo.BoardGroupVO;
+import gu.admin.board.BoardGroupVO;
 import gu.board.BoardSearchVO;
 import gu.board.BoardService;
 import gu.common.MakeExcel;

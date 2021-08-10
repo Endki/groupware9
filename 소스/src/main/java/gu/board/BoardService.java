@@ -14,7 +14,7 @@ import org.springframework.transaction.TransactionException;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 
-import gu.admin.board.vo.BoardGroupVO;
+import gu.admin.board.BoardGroupVO;
 import gu.common.Field3VO;
 import gu.common.FileVO;
 

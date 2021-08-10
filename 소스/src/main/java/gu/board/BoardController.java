@@ -13,8 +13,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import gu.board.BoardService;
-import gu.admin.board.service.BoardGroupService;
-import gu.admin.board.vo.BoardGroupVO;
+import gu.admin.board.BoardGroupService;
+import gu.admin.board.BoardGroupVO;
 import gu.board.BoardReplyVO;
 import gu.board.BoardVO;
 import gu.common.Field3VO;

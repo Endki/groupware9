@@ -1,4 +1,4 @@
-package gu.admin.code.service;
+package gu.admin.code;
 
 import java.util.List;
 
@@ -13,7 +13,6 @@ import org.springframework.transaction.TransactionException;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 
-import gu.admin.code.vo.CodeVO;
 import gu.common.SearchVO;
 
 @Service

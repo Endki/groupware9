@@ -1,12 +1,10 @@
-package gu.admin.board.service;
+package gu.admin.board;
 
 import java.util.List;
 
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import gu.admin.board.vo.BoardGroupVO;
 
 @Service
 public class BoardGroupService {

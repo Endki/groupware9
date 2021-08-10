@@ -1,4 +1,4 @@
-package gu.admin.organ.vo;
+package gu.admin.organ;
 
 public class DepartmentVO {
 

@@ -1,4 +1,4 @@
-package gu.admin.organ.controller;
+package gu.admin.organ;
 
 import java.util.List;
 
@@ -10,8 +10,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.admin.organ.service.DeptService;
-import gu.admin.organ.vo.DepartmentVO;
 import gu.common.TreeMaker;
 import gu.common.UtilEtc;
 import gu.etc.EtcService;

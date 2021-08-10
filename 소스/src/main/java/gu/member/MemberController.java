@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.admin.organ.service.UserService;
+import gu.admin.organ.UserService;
 import gu.common.FileUtil;
 import gu.common.FileVO;
 import gu.common.SearchVO;

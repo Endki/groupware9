@@ -1,4 +1,4 @@
-package gu.admin.code.controller;
+package gu.admin.code;
 
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
@@ -10,8 +10,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import gu.admin.code.service.CodeService;
-import gu.admin.code.vo.CodeVO;
 import gu.common.SearchVO;
 
 @Controller 

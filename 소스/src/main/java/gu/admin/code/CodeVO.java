@@ -1,4 +1,4 @@
-package gu.admin.code.vo;
+package gu.admin.code;
 
 public class CodeVO {
 

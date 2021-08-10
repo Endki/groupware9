@@ -1,4 +1,4 @@
-package gu.admin.organ.service;
+package gu.admin.organ;
 
 import java.util.List;
 

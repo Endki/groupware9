@@ -127,7 +127,7 @@
 							    	<a href="#">프로젝트 관리</a>
 							    </li>
 							    <li>
-							    	<a href="#">출근부</a>
+							    	<a href="workCheckBook">출근부</a>
 							    </li>
 							    <li>
 							    	<a href="#">전화 메모</a>

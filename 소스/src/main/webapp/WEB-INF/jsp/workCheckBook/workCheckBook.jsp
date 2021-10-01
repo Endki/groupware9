@@ -25,6 +25,7 @@
     <script src="css/sb-admin/metisMenu.min.js"></script>
     <script src="css/sb-admin/sb-admin-2.js"></script>
 	<script src="js/project9.js"></script>    
+	<script type="text/javascript" src="./js/workCheckBook.js"></script>
 <script>
 function fn_formSubmit(){
 	document.form1.submit();	
@@ -53,8 +54,8 @@ function fn_formSubmit(){
 	            <c:forEach var="i" begin="1" end="30">
 					<tr>
 						<td><c:out value="${i}" /></td>
-						<td><button>출근체크</button></td>
-						<td><button>퇴근체크</button></td>
+						<td><button id="onCheck">출근체크</button></td>
+						<td><button id="offCheck">퇴근체크</button></td>
 						
 					</tr>
             	</c:forEach>

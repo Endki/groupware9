@@ -1,5 +1,8 @@
 package gu.work.dao;
 
-public class WorkCheckBookDao {
+import gu.work.dto.WorkCheckBookDto;
 
+public interface WorkCheckBookDao {
+	public void onCheck(WorkCheckBookDto workCheckBookDto);
+	
 }

@@ -1,5 +1,5 @@
 package gu.work.service;
 
-public class WorkCheckBookService {
+public interface WorkCheckBookService {
 
 }

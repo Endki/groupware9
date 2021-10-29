@@ -1,5 +1,11 @@
 package gu.work.service;
 
-public interface WorkCheckBookService {
+import org.springframework.stereotype.Service;
 
+import gu.work.dto.WorkCheckBookDto;
+
+public interface WorkCheckBookService {
+	
+	public void onCheck(WorkCheckBookDto workCheckBookDto);
+	
 }

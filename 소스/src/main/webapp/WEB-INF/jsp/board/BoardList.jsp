@@ -149,6 +149,7 @@ function TreenodeActivate(node) {
 					</c:forEach>	
 					
 					<br/>
+					<div id=sform>
 					<form role="form" id="form1" name="form1"  method="post">
 					    <jsp:include page="../common/pagingforSubmit.jsp" />
 				    
@@ -178,6 +179,7 @@ function TreenodeActivate(node) {
 	                       </div>
 						</div>
 					</form>	
+					</div>
             	</div>    
             </div>
             <!-- /.row -->
@@ -189,3 +191,6 @@ function TreenodeActivate(node) {
 </body>
 
 </html>
+
+
+

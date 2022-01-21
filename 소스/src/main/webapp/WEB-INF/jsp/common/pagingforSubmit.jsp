@@ -31,3 +31,15 @@
 	}
 	</script>
 </c:if>
+<style>
+.pagination{
+display: block;
+text-align:center;
+}
+
+.pagination > li >a {
+float: none;
+margin-left: -5px;
+}
+
+</style>

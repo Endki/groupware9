@@ -36,6 +36,19 @@ function fn_formSubmit(){
 function fn_onCheck(){
 	var now=new Date();
 	alert("on"+now);
+	
+	/* $.ajax({
+		url: "boardListByAjax",
+		type:"post", 
+		dataType: "json",
+		success: function(result){
+			$("#tree").dynatree({children: result});
+		    $("#tree").dynatree("getTree").reload();
+		    $("#tree").dynatree("getRoot").visit(function(node){
+		        node.expand(true);
+		    });
+		}
+	})	 */
 }
 
 function fn_offCheck(){
